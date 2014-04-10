@@ -30,7 +30,7 @@
         self.animationDuration = 3;
         self.pulseInterval = 0;
         self.backgroundColor = [[UIColor colorWithRed:0.000 green:0.478 blue:1.000 alpha:1] CGColor];
-
+        
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^(void) {
             
             [self setupAnimationGroup];
@@ -74,6 +74,12 @@
     scaleAnimation.fromValue = @0.0;
     scaleAnimation.toValue = @1.0;
     scaleAnimation.duration = self.animationDuration;
+    
+//    CABasicAnimation *opacityAnimation = [CABasicAnimation animationWithKeyPath:@"opacity"];
+//    opacityAnimation.duration = self.animationDuration;
+//    opacityAnimation.fromValue = @0.0;
+//    opacityAnimation.toValue = @1.0;
+//    opacityAnimation.removedOnCompletion = NO;
     
     CAKeyframeAnimation *opacityAnimation = [CAKeyframeAnimation animationWithKeyPath:@"opacity"];
     opacityAnimation.duration = self.animationDuration;

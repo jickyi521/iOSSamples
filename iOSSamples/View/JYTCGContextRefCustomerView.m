@@ -8,6 +8,7 @@
 
 #import "JYTCGContextRefCustomerView.h"
 #import  <QuartzCore/QuartzCore.h>
+#import "JYTSectorView.h"
 
 #define PI 3.14159265358979323846
 
@@ -183,7 +184,7 @@
     CGContextSetFillColorWithColor(context, aColor.CGColor);//填充颜色
     //以10为半径围绕圆心画指定角度扇形
     CGContextMoveToPoint(context, 160, 180);
-    CGContextAddArc(context, 160, 180, 30,  -60 * PI / 180, -120 * PI / 180, 1);
+    CGContextAddArc(context, 160, 180, 30,  -60 * M_PI / 180, -120 * M_PI / 180, 1);
     CGContextClosePath(context);
     CGContextDrawPath(context, kCGPathFillStroke); //绘制路径
     
@@ -233,7 +234,20 @@
     //    CGContextDrawTiledImage(context, CGRectMake(0, 0, 20, 20), image.CGImage);//平铺图
     
     
+    JYTSectorView *sectorView = [[JYTSectorView alloc] initWithFrame:CGRectMake(10, 320, 75, 150)];
+    
+    [sectorView initSectorView:PI/6 content:@"test" normalImage:[UIImage imageNamed:@"rosetta_mail.png"] highLightedImage:nil action:@selector(clickA:) target:self];
+    //sectorView.backgroundColor = [UIColor redColor];
+    
+    [self addSubview:sectorView];
+    
+    
     self.backgroundColor = [UIColor clearColor];
+}
+
+-(void)clickA:(id)sender{
+    
+    NSLog(@"clickA");
 }
 
 @end

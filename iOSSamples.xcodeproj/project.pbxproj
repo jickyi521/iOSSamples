@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B48FBED418F4E89F00BAF084 /* JYTCoinTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FBED218F4E89F00BAF084 /* JYTCoinTransitionViewController.m */; };
+		B48FBED518F4E89F00BAF084 /* JYTCoinTransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B48FBED318F4E89F00BAF084 /* JYTCoinTransitionViewController.xib */; };
+		B48FBED818F4E8D400BAF084 /* JYTCoinView.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FBED718F4E8D400BAF084 /* JYTCoinView.m */; };
+		B48FBEDB18F4EEC200BAF084 /* check-mark-512.gif in Resources */ = {isa = PBXBuildFile; fileRef = B48FBED918F4EEC200BAF084 /* check-mark-512.gif */; };
+		B48FBEDC18F4EEC200BAF084 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = B48FBEDA18F4EEC200BAF084 /* profile.png */; };
+		B48FBEE018F6242200BAF084 /* JYTFrameTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FBEDE18F6242200BAF084 /* JYTFrameTestViewController.m */; };
+		B48FBEE118F6242200BAF084 /* JYTFrameTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B48FBEDF18F6242200BAF084 /* JYTFrameTestViewController.xib */; };
 		B4BE78B918EBF97A00C65666 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BE78B818EBF97A00C65666 /* Foundation.framework */; };
 		B4BE78BB18EBF97A00C65666 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BE78BA18EBF97A00C65666 /* CoreGraphics.framework */; };
 		B4BE78BD18EBF97A00C65666 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BE78BC18EBF97A00C65666 /* UIKit.framework */; };
@@ -20,7 +27,6 @@
 		B4BE78DC18EBF97A00C65666 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4BE78DA18EBF97A00C65666 /* InfoPlist.strings */; };
 		B4BE78DE18EBF97A00C65666 /* iOSSamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BE78DD18EBF97A00C65666 /* iOSSamplesTests.m */; };
 		B4BE78EB18EBF9C100C65666 /* JYTMasterTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4BE78E918EBF9C100C65666 /* JYTMasterTableViewController.xib */; };
-		B4BE78F118EBFFA900C65666 /* JYTPulseHaloViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4BE78EF18EBFFA900C65666 /* JYTPulseHaloViewController.xib */; };
 		B4BE78F618EC05E900C65666 /* PulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BE78F518EC05E900C65666 /* PulsingHaloLayer.m */; };
 		B4BE790318EC07CA00C65666 /* JYTPulseHaloViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BE790118EC07CA00C65666 /* JYTPulseHaloViewController.m */; };
 		B4BE790418EC07CA00C65666 /* JYTPulseHaloViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4BE790218EC07CA00C65666 /* JYTPulseHaloViewController.xib */; };
@@ -102,6 +108,7 @@
 		B4BE79A418ED4DBC00C65666 /* JYTSectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4BE79A318ED4DBC00C65666 /* JYTSectorViewController.xib */; };
 		B4BE79A718ED5CC200C65666 /* JYTCGContextRefViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BE79A618ED5CC200C65666 /* JYTCGContextRefViewController.m */; };
 		B4BE79AA18ED5D7600C65666 /* JYTCGContextRefCustomerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BE79A918ED5D7600C65666 /* JYTCGContextRefCustomerView.m */; };
+		B4BE79AD18EE3BFE00C65666 /* JYTSectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BE79AC18EE3BFE00C65666 /* JYTSectorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +122,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B48FBED118F4E89F00BAF084 /* JYTCoinTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTCoinTransitionViewController.h; sourceTree = "<group>"; };
+		B48FBED218F4E89F00BAF084 /* JYTCoinTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTCoinTransitionViewController.m; sourceTree = "<group>"; };
+		B48FBED318F4E89F00BAF084 /* JYTCoinTransitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYTCoinTransitionViewController.xib; sourceTree = "<group>"; };
+		B48FBED618F4E8D400BAF084 /* JYTCoinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTCoinView.h; sourceTree = "<group>"; };
+		B48FBED718F4E8D400BAF084 /* JYTCoinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTCoinView.m; sourceTree = "<group>"; };
+		B48FBED918F4EEC200BAF084 /* check-mark-512.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "check-mark-512.gif"; sourceTree = "<group>"; };
+		B48FBEDA18F4EEC200BAF084 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		B48FBEDD18F6242200BAF084 /* JYTFrameTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTFrameTestViewController.h; sourceTree = "<group>"; };
+		B48FBEDE18F6242200BAF084 /* JYTFrameTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTFrameTestViewController.m; sourceTree = "<group>"; };
+		B48FBEDF18F6242200BAF084 /* JYTFrameTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYTFrameTestViewController.xib; sourceTree = "<group>"; };
 		B4BE78B518EBF97A00C65666 /* iOSSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4BE78B818EBF97A00C65666 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B4BE78BA18EBF97A00C65666 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -132,7 +149,6 @@
 		B4BE78DB18EBF97A00C65666 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B4BE78DD18EBF97A00C65666 /* iOSSamplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSSamplesTests.m; sourceTree = "<group>"; };
 		B4BE78E918EBF9C100C65666 /* JYTMasterTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JYTMasterTableViewController.xib; path = ../JYTMasterTableViewController.xib; sourceTree = "<group>"; };
-		B4BE78EF18EBFFA900C65666 /* JYTPulseHaloViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JYTPulseHaloViewController.xib; path = ../../JYTPulseHaloViewController.xib; sourceTree = "<group>"; };
 		B4BE78F418EC05E900C65666 /* PulsingHaloLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PulsingHaloLayer.h; sourceTree = "<group>"; };
 		B4BE78F518EC05E900C65666 /* PulsingHaloLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PulsingHaloLayer.m; sourceTree = "<group>"; };
 		B4BE790018EC07CA00C65666 /* JYTPulseHaloViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTPulseHaloViewController.h; sourceTree = "<group>"; };
@@ -225,6 +241,8 @@
 		B4BE79A618ED5CC200C65666 /* JYTCGContextRefViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTCGContextRefViewController.m; sourceTree = "<group>"; };
 		B4BE79A818ED5D7600C65666 /* JYTCGContextRefCustomerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTCGContextRefCustomerView.h; sourceTree = "<group>"; };
 		B4BE79A918ED5D7600C65666 /* JYTCGContextRefCustomerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTCGContextRefCustomerView.m; sourceTree = "<group>"; };
+		B4BE79AB18EE3BFE00C65666 /* JYTSectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTSectorView.h; sourceTree = "<group>"; };
+		B4BE79AC18EE3BFE00C65666 /* JYTSectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTSectorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -347,6 +365,10 @@
 				B4BE78F518EC05E900C65666 /* PulsingHaloLayer.m */,
 				B4BE79A818ED5D7600C65666 /* JYTCGContextRefCustomerView.h */,
 				B4BE79A918ED5D7600C65666 /* JYTCGContextRefCustomerView.m */,
+				B4BE79AB18EE3BFE00C65666 /* JYTSectorView.h */,
+				B4BE79AC18EE3BFE00C65666 /* JYTSectorView.m */,
+				B48FBED618F4E8D400BAF084 /* JYTCoinView.h */,
+				B48FBED718F4E8D400BAF084 /* JYTCoinView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -357,7 +379,6 @@
 				B4BE790818ECEFBA00C65666 /* JYTMasterTableViewController.h */,
 				B4BE790918ECEFBA00C65666 /* JYTMasterTableViewController.m */,
 				B4BE78E918EBF9C100C65666 /* JYTMasterTableViewController.xib */,
-				B4BE78EF18EBFFA900C65666 /* JYTPulseHaloViewController.xib */,
 				B4BE790018EC07CA00C65666 /* JYTPulseHaloViewController.h */,
 				B4BE790118EC07CA00C65666 /* JYTPulseHaloViewController.m */,
 				B4BE790218EC07CA00C65666 /* JYTPulseHaloViewController.xib */,
@@ -369,6 +390,12 @@
 				B4BE79A318ED4DBC00C65666 /* JYTSectorViewController.xib */,
 				B4BE79A518ED5CC200C65666 /* JYTCGContextRefViewController.h */,
 				B4BE79A618ED5CC200C65666 /* JYTCGContextRefViewController.m */,
+				B48FBED118F4E89F00BAF084 /* JYTCoinTransitionViewController.h */,
+				B48FBED218F4E89F00BAF084 /* JYTCoinTransitionViewController.m */,
+				B48FBED318F4E89F00BAF084 /* JYTCoinTransitionViewController.xib */,
+				B48FBEDD18F6242200BAF084 /* JYTFrameTestViewController.h */,
+				B48FBEDE18F6242200BAF084 /* JYTFrameTestViewController.m */,
+				B48FBEDF18F6242200BAF084 /* JYTFrameTestViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -376,6 +403,8 @@
 		B4BE790718EC082800C65666 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B48FBED918F4EEC200BAF084 /* check-mark-512.gif */,
+				B48FBEDA18F4EEC200BAF084 /* profile.png */,
 				B4BE799718ED4D9C00C65666 /* rosetta_facebook.png */,
 				B4BE799818ED4D9C00C65666 /* rosetta_leaf.png */,
 				B4BE799918ED4D9C00C65666 /* rosetta_mail.png */,
@@ -552,9 +581,11 @@
 				B4BE797F18ECF05A00C65666 /* bt_selected_11@2x.png in Resources */,
 				B4BE797918ECF05A00C65666 /* bt_selected_8@2x.png in Resources */,
 				B4BE799D18ED4D9C00C65666 /* rosetta_facebook.png in Resources */,
+				B48FBED518F4E89F00BAF084 /* JYTCoinTransitionViewController.xib in Resources */,
 				B4BE795F18ECF05A00C65666 /* bt_7@2x.png in Resources */,
 				B4BE796018ECF05A00C65666 /* bt_8.png in Resources */,
 				B4BE794D18ECF05A00C65666 /* bg_main.png in Resources */,
+				B48FBEDB18F4EEC200BAF084 /* check-mark-512.gif in Resources */,
 				B4BE78C318EBF97A00C65666 /* InfoPlist.strings in Resources */,
 				B4BE797618ECF05A00C65666 /* bt_selected_7.png in Resources */,
 				B4BE797718ECF05A00C65666 /* bt_selected_7@2x.png in Resources */,
@@ -562,6 +593,7 @@
 				B4BE794818ECF05A00C65666 /* bg_cell_imageview@2x.png in Resources */,
 				B4BE795718ECF05A00C65666 /* bt_3@2x.png in Resources */,
 				B4BE796B18ECF05A00C65666 /* bt_selected_1@2x.png in Resources */,
+				B48FBEDC18F4EEC200BAF084 /* profile.png in Resources */,
 				B4BE795E18ECF05A00C65666 /* bt_7.png in Resources */,
 				B4BE795418ECF05A00C65666 /* bt_2.png in Resources */,
 				B4BE79A018ED4D9C00C65666 /* rosetta_off.png in Resources */,
@@ -573,7 +605,6 @@
 				B4BE78EB18EBF9C100C65666 /* JYTMasterTableViewController.xib in Resources */,
 				B4BE797418ECF05A00C65666 /* bt_selected_6.png in Resources */,
 				B4BE794A18ECF05A00C65666 /* bg_center@2x.png in Resources */,
-				B4BE78F118EBFFA900C65666 /* JYTPulseHaloViewController.xib in Resources */,
 				B4BE794918ECF05A00C65666 /* bg_center.png in Resources */,
 				B4BE799F18ED4D9C00C65666 /* rosetta_mail.png in Resources */,
 				B4BE797D18ECF05A00C65666 /* bt_selected_10@2x.png in Resources */,
@@ -584,6 +615,7 @@
 				B4BE796818ECF05A00C65666 /* bt_12.png in Resources */,
 				B4BE78CB18EBF97A00C65666 /* Images.xcassets in Resources */,
 				B4BE794F18ECF05A00C65666 /* bg_point.png in Resources */,
+				B48FBEE118F6242200BAF084 /* JYTFrameTestViewController.xib in Resources */,
 				B4BE797018ECF05A00C65666 /* bt_selected_4.png in Resources */,
 				B4BE795918ECF05A00C65666 /* bt_4@2x.png in Resources */,
 				B4BE794718ECF05A00C65666 /* bg_cell_imageview.png in Resources */,
@@ -615,14 +647,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B48FBED418F4E89F00BAF084 /* JYTCoinTransitionViewController.m in Sources */,
 				B4BE798D18ECF1EB00C65666 /* HHPlayAudio.m in Sources */,
 				B4BE790318EC07CA00C65666 /* JYTPulseHaloViewController.m in Sources */,
+				B48FBED818F4E8D400BAF084 /* JYTCoinView.m in Sources */,
 				B4BE79AA18ED5D7600C65666 /* JYTCGContextRefCustomerView.m in Sources */,
 				B4BE78F618EC05E900C65666 /* PulsingHaloLayer.m in Sources */,
 				B4BE799018ED4BB800C65666 /* JYTSectorViewController.m in Sources */,
 				B4BE798A18ECF17E00C65666 /* HHTurntableView.m in Sources */,
+				B48FBEE018F6242200BAF084 /* JYTFrameTestViewController.m in Sources */,
 				B4BE78C918EBF97A00C65666 /* JYTAppDelegate.m in Sources */,
 				B4BE790A18ECEFBA00C65666 /* JYTMasterTableViewController.m in Sources */,
+				B4BE79AD18EE3BFE00C65666 /* JYTSectorView.m in Sources */,
 				B4BE799518ED4BD100C65666 /* AURosetteItem.m in Sources */,
 				B4BE79A718ED5CC200C65666 /* JYTCGContextRefViewController.m in Sources */,
 				B4BE78C518EBF97A00C65666 /* main.m in Sources */,
@@ -824,6 +860,7 @@
 				B4BE78E318EBF97A00C65666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4BE78E418EBF97A00C65666 /* Build configuration list for PBXNativeTarget "iOSSamplesTests" */ = {
 			isa = XCConfigurationList;
@@ -832,6 +869,7 @@
 				B4BE78E618EBF97A00C65666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

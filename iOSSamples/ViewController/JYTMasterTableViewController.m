@@ -44,13 +44,22 @@
                      },
                    
                    @{kItemKeyTitle: @"SectorView",
-                     kItemKeyDescription :@"扇形的试图",
+                     kItemKeyDescription :@"扇形的视图",
                      kItemKeyClassPrefix:@"JYTSector",
                      },
                    
                    @{kItemKeyTitle: @"JYTCGContextRefView",
                      kItemKeyDescription :@"CGContextRef画各种试图",
                      kItemKeyClassPrefix:@"JYTCGContextRef",
+                     },
+                   @{kItemKeyTitle: @"JYTCoinTransitionView",
+                     kItemKeyDescription :@"硬币翻转",
+                     kItemKeyClassPrefix:@"JYTCoinTransition",
+                     },
+                   
+                   @{kItemKeyTitle: @"JYTFrameTestView",
+                     kItemKeyDescription :@"UIView属性测试",
+                     kItemKeyClassPrefix:@"JYTFrameTest",
                      },
                    
                   ];
