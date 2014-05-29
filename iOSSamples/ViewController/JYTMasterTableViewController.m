@@ -61,6 +61,19 @@
                      kItemKeyDescription :@"UIView属性测试",
                      kItemKeyClassPrefix:@"JYTFrameTest",
                      },
+                   @{kItemKeyTitle: @"JYTMoveToTrashView",
+                     kItemKeyDescription :@"移动垃圾桶动画",
+                     kItemKeyClassPrefix:@"JYTMoveToTrash",
+                     },
+                   
+                   @{kItemKeyTitle: @"JYTAutoFitLableTextSIzeView",
+                     kItemKeyDescription :@"AutoFitLable属性测试",
+                     kItemKeyClassPrefix:@"JYTAutoFitLableTextSIze",
+                     },
+                   @{kItemKeyTitle: @"JYTLoadingView",
+                     kItemKeyDescription :@"LoadingView单例模式",
+                     kItemKeyClassPrefix:@"JYTLoading",
+                     },
                    
                   ];
 }
@@ -115,10 +128,7 @@
     return cell;
 }
 
-
 #pragma mark - Table view delegate
-
-
 
 // In a xib-based application, navigation from a table can be handled in -tableView:didSelectRowAtIndexPath:
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath

@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B423BD3D18F794C300FC7511 /* JYTMoveToTrashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B423BD3B18F794C300FC7511 /* JYTMoveToTrashViewController.m */; };
+		B423BD3E18F794C300FC7511 /* JYTMoveToTrashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B423BD3C18F794C300FC7511 /* JYTMoveToTrashViewController.xib */; };
+		B423BD4618F7954300FC7511 /* bucket_body_style2.png in Resources */ = {isa = PBXBuildFile; fileRef = B423BD3F18F7954300FC7511 /* bucket_body_style2.png */; };
+		B423BD4718F7954300FC7511 /* bucket_lid_style2.png in Resources */ = {isa = PBXBuildFile; fileRef = B423BD4018F7954300FC7511 /* bucket_lid_style2.png */; };
+		B423BD4818F7954300FC7511 /* BucketBody.png in Resources */ = {isa = PBXBuildFile; fileRef = B423BD4118F7954300FC7511 /* BucketBody.png */; };
+		B423BD4918F7954300FC7511 /* BucketBody@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B423BD4218F7954300FC7511 /* BucketBody@2x.png */; };
+		B423BD4A18F7954300FC7511 /* BucketLid.png in Resources */ = {isa = PBXBuildFile; fileRef = B423BD4318F7954300FC7511 /* BucketLid.png */; };
+		B423BD4B18F7954300FC7511 /* BucketLid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B423BD4418F7954300FC7511 /* BucketLid@2x.png */; };
+		B423BD4C18F7954300FC7511 /* input_mic.png in Resources */ = {isa = PBXBuildFile; fileRef = B423BD4518F7954300FC7511 /* input_mic.png */; };
+		B423BD4F18F7956300FC7511 /* GLBucket.m in Sources */ = {isa = PBXBuildFile; fileRef = B423BD4E18F7956300FC7511 /* GLBucket.m */; };
+		B4255E5D1935F9BC005E1473 /* JYTLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4255E5C1935F9BC005E1473 /* JYTLoadingViewController.m */; };
+		B4255E6819370B00005E1473 /* JYTLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4255E6619370AFF005E1473 /* JYTLoadingView.m */; };
+		B4255E6B19370CC7005E1473 /* JYTLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4255E6A19370CC7005E1473 /* JYTLoadingView.xib */; };
+		B4255E6D19370F97005E1473 /* JYTLoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4255E6C19370F97005E1473 /* JYTLoadingViewController.xib */; };
+		B4671F4C190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4671F4A190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.m */; };
+		B4671F4D190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4671F4B190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.xib */; };
+		B4671F51190A472F00DB412E /* JYTNewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4671F4F190A472F00DB412E /* JYTNewsTableViewCell.m */; };
+		B4671F52190A472F00DB412E /* JYTNewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4671F50190A472F00DB412E /* JYTNewsTableViewCell.xib */; };
+		B4671F56190A576700DB412E /* JYTNewsData.m in Sources */ = {isa = PBXBuildFile; fileRef = B4671F55190A576700DB412E /* JYTNewsData.m */; };
 		B48FBED418F4E89F00BAF084 /* JYTCoinTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FBED218F4E89F00BAF084 /* JYTCoinTransitionViewController.m */; };
 		B48FBED518F4E89F00BAF084 /* JYTCoinTransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B48FBED318F4E89F00BAF084 /* JYTCoinTransitionViewController.xib */; };
 		B48FBED818F4E8D400BAF084 /* JYTCoinView.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FBED718F4E8D400BAF084 /* JYTCoinView.m */; };
@@ -122,6 +141,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B423BD3A18F794C300FC7511 /* JYTMoveToTrashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTMoveToTrashViewController.h; sourceTree = "<group>"; };
+		B423BD3B18F794C300FC7511 /* JYTMoveToTrashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTMoveToTrashViewController.m; sourceTree = "<group>"; };
+		B423BD3C18F794C300FC7511 /* JYTMoveToTrashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYTMoveToTrashViewController.xib; sourceTree = "<group>"; };
+		B423BD3F18F7954300FC7511 /* bucket_body_style2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bucket_body_style2.png; sourceTree = "<group>"; };
+		B423BD4018F7954300FC7511 /* bucket_lid_style2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bucket_lid_style2.png; sourceTree = "<group>"; };
+		B423BD4118F7954300FC7511 /* BucketBody.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BucketBody.png; sourceTree = "<group>"; };
+		B423BD4218F7954300FC7511 /* BucketBody@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BucketBody@2x.png"; sourceTree = "<group>"; };
+		B423BD4318F7954300FC7511 /* BucketLid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BucketLid.png; sourceTree = "<group>"; };
+		B423BD4418F7954300FC7511 /* BucketLid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BucketLid@2x.png"; sourceTree = "<group>"; };
+		B423BD4518F7954300FC7511 /* input_mic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = input_mic.png; sourceTree = "<group>"; };
+		B423BD4D18F7956300FC7511 /* GLBucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBucket.h; sourceTree = "<group>"; };
+		B423BD4E18F7956300FC7511 /* GLBucket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLBucket.m; sourceTree = "<group>"; };
+		B4255E5B1935F9BC005E1473 /* JYTLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTLoadingViewController.h; sourceTree = "<group>"; };
+		B4255E5C1935F9BC005E1473 /* JYTLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTLoadingViewController.m; sourceTree = "<group>"; };
+		B4255E6519370AFF005E1473 /* JYTLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTLoadingView.h; sourceTree = "<group>"; };
+		B4255E6619370AFF005E1473 /* JYTLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTLoadingView.m; sourceTree = "<group>"; };
+		B4255E6A19370CC7005E1473 /* JYTLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYTLoadingView.xib; sourceTree = "<group>"; };
+		B4255E6C19370F97005E1473 /* JYTLoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYTLoadingViewController.xib; sourceTree = "<group>"; };
+		B4671F49190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTAutoFitLableTextSIzeViewController.h; sourceTree = "<group>"; };
+		B4671F4A190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTAutoFitLableTextSIzeViewController.m; sourceTree = "<group>"; };
+		B4671F4B190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYTAutoFitLableTextSIzeViewController.xib; sourceTree = "<group>"; };
+		B4671F4E190A472F00DB412E /* JYTNewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTNewsTableViewCell.h; sourceTree = "<group>"; };
+		B4671F4F190A472F00DB412E /* JYTNewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTNewsTableViewCell.m; sourceTree = "<group>"; };
+		B4671F50190A472F00DB412E /* JYTNewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYTNewsTableViewCell.xib; sourceTree = "<group>"; };
+		B4671F54190A576700DB412E /* JYTNewsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTNewsData.h; sourceTree = "<group>"; };
+		B4671F55190A576700DB412E /* JYTNewsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTNewsData.m; sourceTree = "<group>"; };
 		B48FBED118F4E89F00BAF084 /* JYTCoinTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTCoinTransitionViewController.h; sourceTree = "<group>"; };
 		B48FBED218F4E89F00BAF084 /* JYTCoinTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTCoinTransitionViewController.m; sourceTree = "<group>"; };
 		B48FBED318F4E89F00BAF084 /* JYTCoinTransitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYTCoinTransitionViewController.xib; sourceTree = "<group>"; };
@@ -269,6 +314,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4671F53190A575000DB412E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4671F54190A576700DB412E /* JYTNewsData.h */,
+				B4671F55190A576700DB412E /* JYTNewsData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B4BE78AC18EBF97A00C65666 = {
 			isa = PBXGroup;
 			children = (
@@ -302,6 +356,7 @@
 		B4BE78BE18EBF97A00C65666 /* iOSSamples */ = {
 			isa = PBXGroup;
 			children = (
+				B4671F53190A575000DB412E /* Model */,
 				B4BE790718EC082800C65666 /* Images */,
 				B4BE78F218EC014700C65666 /* View */,
 				B4BE78F318EC014700C65666 /* ViewController */,
@@ -355,6 +410,8 @@
 		B4BE78F218EC014700C65666 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B423BD4D18F7956300FC7511 /* GLBucket.h */,
+				B423BD4E18F7956300FC7511 /* GLBucket.m */,
 				B4BE799118ED4BD100C65666 /* AURosetteItem.h */,
 				B4BE799218ED4BD100C65666 /* AURosetteItem.m */,
 				B4BE799318ED4BD100C65666 /* AURosetteView.h */,
@@ -369,6 +426,12 @@
 				B4BE79AC18EE3BFE00C65666 /* JYTSectorView.m */,
 				B48FBED618F4E8D400BAF084 /* JYTCoinView.h */,
 				B48FBED718F4E8D400BAF084 /* JYTCoinView.m */,
+				B4671F4E190A472F00DB412E /* JYTNewsTableViewCell.h */,
+				B4671F4F190A472F00DB412E /* JYTNewsTableViewCell.m */,
+				B4671F50190A472F00DB412E /* JYTNewsTableViewCell.xib */,
+				B4255E6519370AFF005E1473 /* JYTLoadingView.h */,
+				B4255E6619370AFF005E1473 /* JYTLoadingView.m */,
+				B4255E6A19370CC7005E1473 /* JYTLoadingView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -396,6 +459,15 @@
 				B48FBEDD18F6242200BAF084 /* JYTFrameTestViewController.h */,
 				B48FBEDE18F6242200BAF084 /* JYTFrameTestViewController.m */,
 				B48FBEDF18F6242200BAF084 /* JYTFrameTestViewController.xib */,
+				B423BD3A18F794C300FC7511 /* JYTMoveToTrashViewController.h */,
+				B423BD3B18F794C300FC7511 /* JYTMoveToTrashViewController.m */,
+				B423BD3C18F794C300FC7511 /* JYTMoveToTrashViewController.xib */,
+				B4671F49190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.h */,
+				B4671F4A190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.m */,
+				B4671F4B190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.xib */,
+				B4255E5B1935F9BC005E1473 /* JYTLoadingViewController.h */,
+				B4255E5C1935F9BC005E1473 /* JYTLoadingViewController.m */,
+				B4255E6C19370F97005E1473 /* JYTLoadingViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -403,6 +475,13 @@
 		B4BE790718EC082800C65666 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B423BD3F18F7954300FC7511 /* bucket_body_style2.png */,
+				B423BD4018F7954300FC7511 /* bucket_lid_style2.png */,
+				B423BD4118F7954300FC7511 /* BucketBody.png */,
+				B423BD4218F7954300FC7511 /* BucketBody@2x.png */,
+				B423BD4318F7954300FC7511 /* BucketLid.png */,
+				B423BD4418F7954300FC7511 /* BucketLid@2x.png */,
+				B423BD4518F7954300FC7511 /* input_mic.png */,
 				B48FBED918F4EEC200BAF084 /* check-mark-512.gif */,
 				B48FBEDA18F4EEC200BAF084 /* profile.png */,
 				B4BE799718ED4D9C00C65666 /* rosetta_facebook.png */,
@@ -556,11 +635,14 @@
 				B4BE795A18ECF05A00C65666 /* bt_5.png in Resources */,
 				B4BE797218ECF05A00C65666 /* bt_selected_5.png in Resources */,
 				B4BE79A218ED4D9C00C65666 /* rosetta_twitter.png in Resources */,
+				B423BD3E18F794C300FC7511 /* JYTMoveToTrashViewController.xib in Resources */,
 				B4BE797518ECF05A00C65666 /* bt_selected_6@2x.png in Resources */,
+				B423BD4A18F7954300FC7511 /* BucketLid.png in Resources */,
 				B4BE797118ECF05A00C65666 /* bt_selected_4@2x.png in Resources */,
 				B4BE798018ECF05A00C65666 /* bt_selected_12.png in Resources */,
 				B4BE796F18ECF05A00C65666 /* bt_selected_3@2x.png in Resources */,
 				B4BE797A18ECF05A00C65666 /* bt_selected_9.png in Resources */,
+				B423BD4618F7954300FC7511 /* bucket_body_style2.png in Resources */,
 				B4BE796418ECF05A00C65666 /* bt_10.png in Resources */,
 				B4BE796D18ECF05A00C65666 /* bt_selected_2@2x.png in Resources */,
 				B4BE796918ECF05A00C65666 /* bt_12@2x.png in Resources */,
@@ -570,7 +652,9 @@
 				B4BE795C18ECF05A00C65666 /* bt_6.png in Resources */,
 				B4BE794B18ECF05A00C65666 /* bg_circle.png in Resources */,
 				B4BE796C18ECF05A00C65666 /* bt_selected_2.png in Resources */,
+				B4671F52190A472F00DB412E /* JYTNewsTableViewCell.xib in Resources */,
 				B4BE797C18ECF05A00C65666 /* bt_selected_10.png in Resources */,
+				B4671F4D190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.xib in Resources */,
 				B4BE798118ECF05A00C65666 /* bt_selected_12@2x.png in Resources */,
 				B4BE790618EC080F00C65666 /* IPhone_5s.png in Resources */,
 				B4BE795618ECF05A00C65666 /* bt_3.png in Resources */,
@@ -578,10 +662,13 @@
 				B4BE796E18ECF05A00C65666 /* bt_selected_3.png in Resources */,
 				B4BE797E18ECF05A00C65666 /* bt_selected_11.png in Resources */,
 				B4BE795D18ECF05A00C65666 /* bt_6@2x.png in Resources */,
+				B4255E6D19370F97005E1473 /* JYTLoadingViewController.xib in Resources */,
+				B423BD4818F7954300FC7511 /* BucketBody.png in Resources */,
 				B4BE797F18ECF05A00C65666 /* bt_selected_11@2x.png in Resources */,
 				B4BE797918ECF05A00C65666 /* bt_selected_8@2x.png in Resources */,
 				B4BE799D18ED4D9C00C65666 /* rosetta_facebook.png in Resources */,
 				B48FBED518F4E89F00BAF084 /* JYTCoinTransitionViewController.xib in Resources */,
+				B423BD4718F7954300FC7511 /* bucket_lid_style2.png in Resources */,
 				B4BE795F18ECF05A00C65666 /* bt_7@2x.png in Resources */,
 				B4BE796018ECF05A00C65666 /* bt_8.png in Resources */,
 				B4BE794D18ECF05A00C65666 /* bg_main.png in Resources */,
@@ -592,6 +679,7 @@
 				B4BE796618ECF05A00C65666 /* bt_11.png in Resources */,
 				B4BE794818ECF05A00C65666 /* bg_cell_imageview@2x.png in Resources */,
 				B4BE795718ECF05A00C65666 /* bt_3@2x.png in Resources */,
+				B423BD4C18F7954300FC7511 /* input_mic.png in Resources */,
 				B4BE796B18ECF05A00C65666 /* bt_selected_1@2x.png in Resources */,
 				B48FBEDC18F4EEC200BAF084 /* profile.png in Resources */,
 				B4BE795E18ECF05A00C65666 /* bt_7.png in Resources */,
@@ -603,6 +691,7 @@
 				B4BE795318ECF05A00C65666 /* bt_1@2x.png in Resources */,
 				B4BE797818ECF05A00C65666 /* bt_selected_8.png in Resources */,
 				B4BE78EB18EBF9C100C65666 /* JYTMasterTableViewController.xib in Resources */,
+				B423BD4B18F7954300FC7511 /* BucketLid@2x.png in Resources */,
 				B4BE797418ECF05A00C65666 /* bt_selected_6.png in Resources */,
 				B4BE794A18ECF05A00C65666 /* bg_center@2x.png in Resources */,
 				B4BE794918ECF05A00C65666 /* bg_center.png in Resources */,
@@ -612,6 +701,7 @@
 				B4BE795218ECF05A00C65666 /* bt_1.png in Resources */,
 				B4BE796518ECF05A00C65666 /* bt_10@2x.png in Resources */,
 				B4BE79A118ED4D9C00C65666 /* rosetta_on.png in Resources */,
+				B423BD4918F7954300FC7511 /* BucketBody@2x.png in Resources */,
 				B4BE796818ECF05A00C65666 /* bt_12.png in Resources */,
 				B4BE78CB18EBF97A00C65666 /* Images.xcassets in Resources */,
 				B4BE794F18ECF05A00C65666 /* bg_point.png in Resources */,
@@ -626,6 +716,7 @@
 				B4BE796118ECF05A00C65666 /* bt_8@2x.png in Resources */,
 				B4BE795118ECF05A00C65666 /* blackArrow@2x.png in Resources */,
 				B4BE794C18ECF05A00C65666 /* bg_circle@2x.png in Resources */,
+				B4255E6B19370CC7005E1473 /* JYTLoadingView.xib in Resources */,
 				B4BE799E18ED4D9C00C65666 /* rosetta_leaf.png in Resources */,
 				B4BE796A18ECF05A00C65666 /* bt_selected_1.png in Resources */,
 				B4BE795B18ECF05A00C65666 /* bt_5@2x.png in Resources */,
@@ -647,20 +738,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4671F56190A576700DB412E /* JYTNewsData.m in Sources */,
 				B48FBED418F4E89F00BAF084 /* JYTCoinTransitionViewController.m in Sources */,
 				B4BE798D18ECF1EB00C65666 /* HHPlayAudio.m in Sources */,
 				B4BE790318EC07CA00C65666 /* JYTPulseHaloViewController.m in Sources */,
+				B4671F51190A472F00DB412E /* JYTNewsTableViewCell.m in Sources */,
 				B48FBED818F4E8D400BAF084 /* JYTCoinView.m in Sources */,
 				B4BE79AA18ED5D7600C65666 /* JYTCGContextRefCustomerView.m in Sources */,
 				B4BE78F618EC05E900C65666 /* PulsingHaloLayer.m in Sources */,
 				B4BE799018ED4BB800C65666 /* JYTSectorViewController.m in Sources */,
 				B4BE798A18ECF17E00C65666 /* HHTurntableView.m in Sources */,
+				B4671F4C190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.m in Sources */,
 				B48FBEE018F6242200BAF084 /* JYTFrameTestViewController.m in Sources */,
+				B423BD3D18F794C300FC7511 /* JYTMoveToTrashViewController.m in Sources */,
 				B4BE78C918EBF97A00C65666 /* JYTAppDelegate.m in Sources */,
 				B4BE790A18ECEFBA00C65666 /* JYTMasterTableViewController.m in Sources */,
 				B4BE79AD18EE3BFE00C65666 /* JYTSectorView.m in Sources */,
 				B4BE799518ED4BD100C65666 /* AURosetteItem.m in Sources */,
+				B4255E5D1935F9BC005E1473 /* JYTLoadingViewController.m in Sources */,
 				B4BE79A718ED5CC200C65666 /* JYTCGContextRefViewController.m in Sources */,
+				B4255E6819370B00005E1473 /* JYTLoadingView.m in Sources */,
+				B423BD4F18F7956300FC7511 /* GLBucket.m in Sources */,
 				B4BE78C518EBF97A00C65666 /* main.m in Sources */,
 				B4BE799618ED4BD100C65666 /* AURosetteView.m in Sources */,
 				B4BE798618ECF13B00C65666 /* JYTShakeAwardTurnTableViewController.m in Sources */,
