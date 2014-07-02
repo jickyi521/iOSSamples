@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B67DA731964489A00C4DDCA /* JYTStrutsProblemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B67DA711964489A00C4DDCA /* JYTStrutsProblemViewController.m */; };
+		9B67DA741964489A00C4DDCA /* JYTStrutsProblemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B67DA721964489A00C4DDCA /* JYTStrutsProblemViewController.xib */; };
 		B423BD3D18F794C300FC7511 /* JYTMoveToTrashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B423BD3B18F794C300FC7511 /* JYTMoveToTrashViewController.m */; };
 		B423BD3E18F794C300FC7511 /* JYTMoveToTrashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B423BD3C18F794C300FC7511 /* JYTMoveToTrashViewController.xib */; };
 		B423BD4618F7954300FC7511 /* bucket_body_style2.png in Resources */ = {isa = PBXBuildFile; fileRef = B423BD3F18F7954300FC7511 /* bucket_body_style2.png */; };
@@ -141,6 +143,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B67DA701964489A00C4DDCA /* JYTStrutsProblemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTStrutsProblemViewController.h; sourceTree = "<group>"; };
+		9B67DA711964489A00C4DDCA /* JYTStrutsProblemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTStrutsProblemViewController.m; sourceTree = "<group>"; };
+		9B67DA721964489A00C4DDCA /* JYTStrutsProblemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYTStrutsProblemViewController.xib; sourceTree = "<group>"; };
 		B423BD3A18F794C300FC7511 /* JYTMoveToTrashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTMoveToTrashViewController.h; sourceTree = "<group>"; };
 		B423BD3B18F794C300FC7511 /* JYTMoveToTrashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTMoveToTrashViewController.m; sourceTree = "<group>"; };
 		B423BD3C18F794C300FC7511 /* JYTMoveToTrashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYTMoveToTrashViewController.xib; sourceTree = "<group>"; };
@@ -468,6 +473,9 @@
 				B4255E5B1935F9BC005E1473 /* JYTLoadingViewController.h */,
 				B4255E5C1935F9BC005E1473 /* JYTLoadingViewController.m */,
 				B4255E6C19370F97005E1473 /* JYTLoadingViewController.xib */,
+				9B67DA701964489A00C4DDCA /* JYTStrutsProblemViewController.h */,
+				9B67DA711964489A00C4DDCA /* JYTStrutsProblemViewController.m */,
+				9B67DA721964489A00C4DDCA /* JYTStrutsProblemViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -638,6 +646,7 @@
 				B423BD3E18F794C300FC7511 /* JYTMoveToTrashViewController.xib in Resources */,
 				B4BE797518ECF05A00C65666 /* bt_selected_6@2x.png in Resources */,
 				B423BD4A18F7954300FC7511 /* BucketLid.png in Resources */,
+				9B67DA741964489A00C4DDCA /* JYTStrutsProblemViewController.xib in Resources */,
 				B4BE797118ECF05A00C65666 /* bt_selected_4@2x.png in Resources */,
 				B4BE798018ECF05A00C65666 /* bt_selected_12.png in Resources */,
 				B4BE796F18ECF05A00C65666 /* bt_selected_3@2x.png in Resources */,
@@ -750,6 +759,7 @@
 				B4BE798A18ECF17E00C65666 /* HHTurntableView.m in Sources */,
 				B4671F4C190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.m in Sources */,
 				B48FBEE018F6242200BAF084 /* JYTFrameTestViewController.m in Sources */,
+				9B67DA731964489A00C4DDCA /* JYTStrutsProblemViewController.m in Sources */,
 				B423BD3D18F794C300FC7511 /* JYTMoveToTrashViewController.m in Sources */,
 				B4BE78C918EBF97A00C65666 /* JYTAppDelegate.m in Sources */,
 				B4BE790A18ECEFBA00C65666 /* JYTMasterTableViewController.m in Sources */,
