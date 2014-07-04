@@ -10,8 +10,7 @@
 
 @interface JYTLoadingView : UIView
 
-+(id)getShareInstance;
--(void)show;
--(void)stop;
++(void)show;
++(void)stop;
 
 @end

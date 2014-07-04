@@ -21,6 +21,7 @@
 		B4255E6819370B00005E1473 /* JYTLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4255E6619370AFF005E1473 /* JYTLoadingView.m */; };
 		B4255E6B19370CC7005E1473 /* JYTLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4255E6A19370CC7005E1473 /* JYTLoadingView.xib */; };
 		B4255E6D19370F97005E1473 /* JYTLoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4255E6C19370F97005E1473 /* JYTLoadingViewController.xib */; };
+		B44FB6CA1963989200695EF6 /* JYTTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44FB6C91963989200695EF6 /* JYTTabBarViewController.m */; };
 		B4671F4C190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4671F4A190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.m */; };
 		B4671F4D190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4671F4B190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.xib */; };
 		B4671F51190A472F00DB412E /* JYTNewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4671F4F190A472F00DB412E /* JYTNewsTableViewCell.m */; };
@@ -33,6 +34,8 @@
 		B48FBEDC18F4EEC200BAF084 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = B48FBEDA18F4EEC200BAF084 /* profile.png */; };
 		B48FBEE018F6242200BAF084 /* JYTFrameTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FBEDE18F6242200BAF084 /* JYTFrameTestViewController.m */; };
 		B48FBEE118F6242200BAF084 /* JYTFrameTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B48FBEDF18F6242200BAF084 /* JYTFrameTestViewController.xib */; };
+		B4BBD423193D550900EF83F5 /* JYTBlockClangTest.c in Sources */ = {isa = PBXBuildFile; fileRef = B4BBD422193D550900EF83F5 /* JYTBlockClangTest.c */; };
+		B4BBD425193D56B200EF83F5 /* JYTBlockClangTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4BBD424193D56B200EF83F5 /* JYTBlockClangTest.cpp */; };
 		B4BE78B918EBF97A00C65666 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BE78B818EBF97A00C65666 /* Foundation.framework */; };
 		B4BE78BB18EBF97A00C65666 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BE78BA18EBF97A00C65666 /* CoreGraphics.framework */; };
 		B4BE78BD18EBF97A00C65666 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BE78BC18EBF97A00C65666 /* UIKit.framework */; };
@@ -159,6 +162,8 @@
 		B4255E6619370AFF005E1473 /* JYTLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTLoadingView.m; sourceTree = "<group>"; };
 		B4255E6A19370CC7005E1473 /* JYTLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYTLoadingView.xib; sourceTree = "<group>"; };
 		B4255E6C19370F97005E1473 /* JYTLoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYTLoadingViewController.xib; sourceTree = "<group>"; };
+		B44FB6C81963989200695EF6 /* JYTTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTTabBarViewController.h; sourceTree = "<group>"; };
+		B44FB6C91963989200695EF6 /* JYTTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTTabBarViewController.m; sourceTree = "<group>"; };
 		B4671F49190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTAutoFitLableTextSIzeViewController.h; sourceTree = "<group>"; };
 		B4671F4A190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTAutoFitLableTextSIzeViewController.m; sourceTree = "<group>"; };
 		B4671F4B190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYTAutoFitLableTextSIzeViewController.xib; sourceTree = "<group>"; };
@@ -177,6 +182,8 @@
 		B48FBEDD18F6242200BAF084 /* JYTFrameTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTFrameTestViewController.h; sourceTree = "<group>"; };
 		B48FBEDE18F6242200BAF084 /* JYTFrameTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTFrameTestViewController.m; sourceTree = "<group>"; };
 		B48FBEDF18F6242200BAF084 /* JYTFrameTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYTFrameTestViewController.xib; sourceTree = "<group>"; };
+		B4BBD422193D550900EF83F5 /* JYTBlockClangTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JYTBlockClangTest.c; sourceTree = "<group>"; };
+		B4BBD424193D56B200EF83F5 /* JYTBlockClangTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JYTBlockClangTest.cpp; sourceTree = "<group>"; };
 		B4BE78B518EBF97A00C65666 /* iOSSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4BE78B818EBF97A00C65666 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B4BE78BA18EBF97A00C65666 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -468,6 +475,10 @@
 				B4255E5B1935F9BC005E1473 /* JYTLoadingViewController.h */,
 				B4255E5C1935F9BC005E1473 /* JYTLoadingViewController.m */,
 				B4255E6C19370F97005E1473 /* JYTLoadingViewController.xib */,
+				B4BBD422193D550900EF83F5 /* JYTBlockClangTest.c */,
+				B4BBD424193D56B200EF83F5 /* JYTBlockClangTest.cpp */,
+				B44FB6C81963989200695EF6 /* JYTTabBarViewController.h */,
+				B44FB6C91963989200695EF6 /* JYTTabBarViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -748,10 +759,13 @@
 				B4BE78F618EC05E900C65666 /* PulsingHaloLayer.m in Sources */,
 				B4BE799018ED4BB800C65666 /* JYTSectorViewController.m in Sources */,
 				B4BE798A18ECF17E00C65666 /* HHTurntableView.m in Sources */,
+				B44FB6CA1963989200695EF6 /* JYTTabBarViewController.m in Sources */,
+				B4BBD423193D550900EF83F5 /* JYTBlockClangTest.c in Sources */,
 				B4671F4C190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.m in Sources */,
 				B48FBEE018F6242200BAF084 /* JYTFrameTestViewController.m in Sources */,
 				B423BD3D18F794C300FC7511 /* JYTMoveToTrashViewController.m in Sources */,
 				B4BE78C918EBF97A00C65666 /* JYTAppDelegate.m in Sources */,
+				B4BBD425193D56B200EF83F5 /* JYTBlockClangTest.cpp in Sources */,
 				B4BE790A18ECEFBA00C65666 /* JYTMasterTableViewController.m in Sources */,
 				B4BE79AD18EE3BFE00C65666 /* JYTSectorView.m in Sources */,
 				B4BE799518ED4BD100C65666 /* AURosetteItem.m in Sources */,

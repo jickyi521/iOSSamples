@@ -33,10 +33,10 @@
 - (IBAction)clickButton:(UIButton *)button{
     switch (button.tag) {
         case 1:
-            [[JYTLoadingView getShareInstance] show];
+            [JYTLoadingView show];
             break;
          case 2:
-            [[JYTLoadingView getShareInstance] stop];
+            [JYTLoadingView stop];
             break;
         default:
             break;

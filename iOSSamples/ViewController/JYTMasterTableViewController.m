@@ -75,6 +75,11 @@
                      kItemKeyClassPrefix:@"JYTLoading",
                      },
                    
+                   @{kItemKeyTitle: @"JYTTabBarView",
+                     kItemKeyDescription :@"LoadingView单例模式",
+                     kItemKeyClassPrefix:@"JYTTabBarViewController",
+                     },
+                   
                   ];
 }
 
