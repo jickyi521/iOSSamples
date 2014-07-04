@@ -24,7 +24,19 @@
 {
     [super viewDidLoad];
     
+    [self addRedUIView];
+    self.navigationController.navigationBar.translucent = NO;
+    //self.automaticallyAdjustsScrollViewInsets = NO;
+    
     [self initData];
+    
+}
+
+-(void)addRedUIView{
+    UIView *redView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 64, 64)];
+    redView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:redView];
+    //[[[[UIApplication sharedApplication] delegate] window] addSubview:redView];
 }
 
 -(void)initData{
@@ -73,6 +85,10 @@
                    @{kItemKeyTitle: @"JYTLoadingView",
                      kItemKeyDescription :@"LoadingView单例模式",
                      kItemKeyClassPrefix:@"JYTLoading",
+                     },
+                   @{kItemKeyTitle: @"JYTStrutsProblemView",
+                     kItemKeyDescription :@"不用autolayout处理不了的问题",
+                     kItemKeyClassPrefix:@"JYTStrutsProblem",
                      },
                    
                    @{kItemKeyTitle: @"JYTTabBarView",
