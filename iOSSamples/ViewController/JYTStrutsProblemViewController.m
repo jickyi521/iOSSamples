@@ -8,7 +8,12 @@
 
 #import "JYTStrutsProblemViewController.h"
 
-@interface JYTStrutsProblemViewController ()
+@interface JYTStrutsProblemViewController (){
+    IBOutlet UIView *view1;
+    IBOutlet UIView *view2;
+    IBOutlet UIView *view3;
+
+}
 
 @end
 
@@ -26,11 +31,33 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.edgesForExtendedLayout = UIRectEdgeNone;
     // Do any additional setup after loading the view from its nib.
     
+//    UIView *redView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 64, 64)];
+//    redView.backgroundColor = [UIColor redColor];
+//    [self.view addSubview:redView];
+}
+
+-(void)viewDidLayoutSubviews{
+    
+//    [UIView animateWithDuration:1 animations:^{
+//        
+//        self.view.frame = CGRectMake(0, 64, 320, 568);
+//    }];
+//    
     UIView *redView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 64, 64)];
     redView.backgroundColor = [UIColor redColor];
     [self.view addSubview:redView];
+    [self.view bringSubviewToFront:redView];
+    
+//    self.view.frame = CGRectMake(0, 64, 320, 568);
+    
+    //view1.frame = CGRectMake(0, 100, 100, 100);
+//   self.view.frame = CGRectMake(0, 64, 320, 568);
+    
+    
+//    view1.autoresizingMask = UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleTopMargin;
 }
 
 - (void)didReceiveMemoryWarning

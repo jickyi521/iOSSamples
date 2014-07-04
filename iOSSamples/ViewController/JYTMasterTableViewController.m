@@ -25,7 +25,9 @@
     [super viewDidLoad];
     
     [self addRedUIView];
-    self.navigationController.navigationBar.translucent = NO;
+    
+    self.extendedLayoutIncludesOpaqueBars = NO;
+    //self.navigationController.navigationBar.translucent = NO;
     //self.automaticallyAdjustsScrollViewInsets = NO;
     
     [self initData];
