@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>TestPackage.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>TestPackage2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>iOSSamples.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +22,36 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>B48A3EC319AC2F4200C64269</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B48A3ED219AC2F4200C64269</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B48A3EEE19AC2F7500C64269</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B48A3EFD19AC2F7600C64269</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B48F39EF19AC308E0065FE76</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B48F39FF19AC308E0065FE76</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B4BE78B418EBF97A00C65666</key>
 		<dict>
 			<key>primary</key>

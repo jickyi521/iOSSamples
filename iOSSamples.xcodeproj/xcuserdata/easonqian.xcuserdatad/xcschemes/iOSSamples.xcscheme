@@ -38,6 +38,36 @@
                ReferencedContainer = "container:iOSSamples.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B48A3ED219AC2F4200C64269"
+               BuildableName = "TestPackageTests.xctest"
+               BlueprintName = "TestPackageTests"
+               ReferencedContainer = "container:iOSSamples.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B48A3EFD19AC2F7600C64269"
+               BuildableName = "TestPackageTests.xctest"
+               BlueprintName = "TestPackageTests"
+               ReferencedContainer = "container:iOSSamples.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B48F39FF19AC308E0065FE76"
+               BuildableName = "TestPackage2Tests.xctest"
+               BlueprintName = "TestPackage2Tests"
+               ReferencedContainer = "container:iOSSamples.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

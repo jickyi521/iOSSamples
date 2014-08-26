@@ -95,8 +95,20 @@
                    
                    @{kItemKeyTitle: @"JYTTabBarView",
                      kItemKeyDescription :@"LoadingView单例模式",
-                     kItemKeyClassPrefix:@"JYTTabBarViewController",
+                     kItemKeyClassPrefix:@"JYTTabBar",
                      },
+                   @{kItemKeyTitle: @"JYTMemoryManagerView",
+                     kItemKeyDescription :@"内存管理语义",
+                     kItemKeyClassPrefix:@"JYTMemoryManager",
+                     },
+                   @{kItemKeyTitle: @"JYTBlockTestView",
+                     kItemKeyDescription :@"block",
+                     kItemKeyClassPrefix:@"JYTBlockTest",
+                     },
+                   @{kItemKeyTitle: @"JYTTouchTestView",
+                     kItemKeyDescription :@"Touch Event",
+                     kItemKeyClassPrefix:@"JYTTouchTest",
+                     }
                    
                   ];
 }
