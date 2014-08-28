@@ -108,6 +108,14 @@
                    @{kItemKeyTitle: @"JYTTouchTestView",
                      kItemKeyDescription :@"Touch Event",
                      kItemKeyClassPrefix:@"JYTTouchTest",
+                     },
+                   @{kItemKeyTitle: @"JYTOperationQueueTableView",
+                        kItemKeyDescription :@"NSOperationQueue",
+                        kItemKeyClassPrefix:@"JYTOperationQueueTable",
+                        },
+                   @{kItemKeyTitle: @"JYTOperationQueue2TableView",
+                     kItemKeyDescription :@"NSOperationQueue2",
+                     kItemKeyClassPrefix:@"JYTOperationQueue2Table",
                      }
                    
                   ];

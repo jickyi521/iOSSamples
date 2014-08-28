@@ -87,6 +87,23 @@
 		B48F3A3419AC31A00065FE76 /* JYTNewsData.h in Headers */ = {isa = PBXBuildFile; fileRef = B4671F54190A576700DB412E /* JYTNewsData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B48F3A3519AC31D50065FE76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BE78BC18EBF97A00C65666 /* UIKit.framework */; };
 		B48F3A3619AC31E70065FE76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BE78BA18EBF97A00C65666 /* CoreGraphics.framework */; };
+		B48F3A4619AD7CCC0065FE76 /* JYTOperationQueueTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F3A4419AD7CCC0065FE76 /* JYTOperationQueueTableViewController.m */; };
+		B48F3A4719AD7CCC0065FE76 /* JYTOperationQueueTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B48F3A4519AD7CCC0065FE76 /* JYTOperationQueueTableViewController.xib */; };
+		B48F3A4A19ADBB320065FE76 /* JYTPhotoRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F3A4919ADBB320065FE76 /* JYTPhotoRecord.m */; };
+		B48F3A4D19ADBB970065FE76 /* JYTPendingOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F3A4C19ADBB970065FE76 /* JYTPendingOperations.m */; };
+		B48F3A5019ADBC7C0065FE76 /* JYTImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F3A4F19ADBC7B0065FE76 /* JYTImageDownloader.m */; };
+		B48F3A5319ADBD880065FE76 /* JYTImageFiltration.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F3A5219ADBD880065FE76 /* JYTImageFiltration.m */; };
+		B48F3A5719ADBE7B0065FE76 /* JYTOperationQueue2TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F3A5519ADBE7B0065FE76 /* JYTOperationQueue2TableViewController.m */; };
+		B48F3A5819ADBE7B0065FE76 /* JYTOperationQueue2TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B48F3A5619ADBE7B0065FE76 /* JYTOperationQueue2TableViewController.xib */; };
+		B48F3A6E19ADC0880065FE76 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F3A5C19ADC0880065FE76 /* AFHTTPRequestOperation.m */; };
+		B48F3A6F19ADC0880065FE76 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F3A5E19ADC0880065FE76 /* AFHTTPRequestOperationManager.m */; };
+		B48F3A7019ADC0880065FE76 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F3A6019ADC0880065FE76 /* AFHTTPSessionManager.m */; };
+		B48F3A7119ADC0880065FE76 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F3A6319ADC0880065FE76 /* AFNetworkReachabilityManager.m */; };
+		B48F3A7219ADC0880065FE76 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F3A6519ADC0880065FE76 /* AFSecurityPolicy.m */; };
+		B48F3A7319ADC0880065FE76 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F3A6719ADC0880065FE76 /* AFURLConnectionOperation.m */; };
+		B48F3A7419ADC0880065FE76 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F3A6919ADC0880065FE76 /* AFURLRequestSerialization.m */; };
+		B48F3A7519ADC0880065FE76 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F3A6B19ADC0880065FE76 /* AFURLResponseSerialization.m */; };
+		B48F3A7619ADC0880065FE76 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F3A6D19ADC0880065FE76 /* AFURLSessionManager.m */; };
 		B48FBED418F4E89F00BAF084 /* JYTCoinTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FBED218F4E89F00BAF084 /* JYTCoinTransitionViewController.m */; };
 		B48FBED518F4E89F00BAF084 /* JYTCoinTransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B48FBED318F4E89F00BAF084 /* JYTCoinTransitionViewController.xib */; };
 		B48FBED818F4E8D400BAF084 /* JYTCoinView.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FBED718F4E8D400BAF084 /* JYTCoinView.m */; };
@@ -281,6 +298,39 @@
 		B48F3A0B19AC308E0065FE76 /* TestPackage2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestPackage2Tests-Info.plist"; sourceTree = "<group>"; };
 		B48F3A0D19AC308E0065FE76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B48F3A0F19AC308E0065FE76 /* TestPackage2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPackage2Tests.m; sourceTree = "<group>"; };
+		B48F3A4319AD7CCC0065FE76 /* JYTOperationQueueTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTOperationQueueTableViewController.h; sourceTree = "<group>"; };
+		B48F3A4419AD7CCC0065FE76 /* JYTOperationQueueTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTOperationQueueTableViewController.m; sourceTree = "<group>"; };
+		B48F3A4519AD7CCC0065FE76 /* JYTOperationQueueTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYTOperationQueueTableViewController.xib; sourceTree = "<group>"; };
+		B48F3A4819ADBB320065FE76 /* JYTPhotoRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTPhotoRecord.h; sourceTree = "<group>"; };
+		B48F3A4919ADBB320065FE76 /* JYTPhotoRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTPhotoRecord.m; sourceTree = "<group>"; };
+		B48F3A4B19ADBB970065FE76 /* JYTPendingOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTPendingOperations.h; sourceTree = "<group>"; };
+		B48F3A4C19ADBB970065FE76 /* JYTPendingOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTPendingOperations.m; sourceTree = "<group>"; };
+		B48F3A4E19ADBC7B0065FE76 /* JYTImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTImageDownloader.h; sourceTree = "<group>"; };
+		B48F3A4F19ADBC7B0065FE76 /* JYTImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTImageDownloader.m; sourceTree = "<group>"; };
+		B48F3A5119ADBD880065FE76 /* JYTImageFiltration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTImageFiltration.h; sourceTree = "<group>"; };
+		B48F3A5219ADBD880065FE76 /* JYTImageFiltration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTImageFiltration.m; sourceTree = "<group>"; };
+		B48F3A5419ADBE7B0065FE76 /* JYTOperationQueue2TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTOperationQueue2TableViewController.h; sourceTree = "<group>"; };
+		B48F3A5519ADBE7B0065FE76 /* JYTOperationQueue2TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTOperationQueue2TableViewController.m; sourceTree = "<group>"; };
+		B48F3A5619ADBE7B0065FE76 /* JYTOperationQueue2TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYTOperationQueue2TableViewController.xib; sourceTree = "<group>"; };
+		B48F3A5B19ADC0880065FE76 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		B48F3A5C19ADC0880065FE76 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		B48F3A5D19ADC0880065FE76 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		B48F3A5E19ADC0880065FE76 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		B48F3A5F19ADC0880065FE76 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		B48F3A6019ADC0880065FE76 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		B48F3A6119ADC0880065FE76 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		B48F3A6219ADC0880065FE76 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		B48F3A6319ADC0880065FE76 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		B48F3A6419ADC0880065FE76 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		B48F3A6519ADC0880065FE76 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		B48F3A6619ADC0880065FE76 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		B48F3A6719ADC0880065FE76 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		B48F3A6819ADC0880065FE76 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		B48F3A6919ADC0880065FE76 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		B48F3A6A19ADC0880065FE76 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		B48F3A6B19ADC0880065FE76 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		B48F3A6C19ADC0880065FE76 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		B48F3A6D19ADC0880065FE76 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		B48FBED118F4E89F00BAF084 /* JYTCoinTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTCoinTransitionViewController.h; sourceTree = "<group>"; };
 		B48FBED218F4E89F00BAF084 /* JYTCoinTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTCoinTransitionViewController.m; sourceTree = "<group>"; };
 		B48FBED318F4E89F00BAF084 /* JYTCoinTransitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYTCoinTransitionViewController.xib; sourceTree = "<group>"; };
@@ -474,6 +524,14 @@
 			children = (
 				B4671F54190A576700DB412E /* JYTNewsData.h */,
 				B4671F55190A576700DB412E /* JYTNewsData.m */,
+				B48F3A4819ADBB320065FE76 /* JYTPhotoRecord.h */,
+				B48F3A4919ADBB320065FE76 /* JYTPhotoRecord.m */,
+				B48F3A4B19ADBB970065FE76 /* JYTPendingOperations.h */,
+				B48F3A4C19ADBB970065FE76 /* JYTPendingOperations.m */,
+				B48F3A4E19ADBC7B0065FE76 /* JYTImageDownloader.h */,
+				B48F3A4F19ADBC7B0065FE76 /* JYTImageDownloader.m */,
+				B48F3A5119ADBD880065FE76 /* JYTImageFiltration.h */,
+				B48F3A5219ADBD880065FE76 /* JYTImageFiltration.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -572,6 +630,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B48F3A5919ADC07E0065FE76 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				B48F3A5A19ADC0880065FE76 /* AFNetworking */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		B48F3A5A19ADC0880065FE76 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				B48F3A5B19ADC0880065FE76 /* AFHTTPRequestOperation.h */,
+				B48F3A5C19ADC0880065FE76 /* AFHTTPRequestOperation.m */,
+				B48F3A5D19ADC0880065FE76 /* AFHTTPRequestOperationManager.h */,
+				B48F3A5E19ADC0880065FE76 /* AFHTTPRequestOperationManager.m */,
+				B48F3A5F19ADC0880065FE76 /* AFHTTPSessionManager.h */,
+				B48F3A6019ADC0880065FE76 /* AFHTTPSessionManager.m */,
+				B48F3A6119ADC0880065FE76 /* AFNetworking.h */,
+				B48F3A6219ADC0880065FE76 /* AFNetworkReachabilityManager.h */,
+				B48F3A6319ADC0880065FE76 /* AFNetworkReachabilityManager.m */,
+				B48F3A6419ADC0880065FE76 /* AFSecurityPolicy.h */,
+				B48F3A6519ADC0880065FE76 /* AFSecurityPolicy.m */,
+				B48F3A6619ADC0880065FE76 /* AFURLConnectionOperation.h */,
+				B48F3A6719ADC0880065FE76 /* AFURLConnectionOperation.m */,
+				B48F3A6819ADC0880065FE76 /* AFURLRequestSerialization.h */,
+				B48F3A6919ADC0880065FE76 /* AFURLRequestSerialization.m */,
+				B48F3A6A19ADC0880065FE76 /* AFURLResponseSerialization.h */,
+				B48F3A6B19ADC0880065FE76 /* AFURLResponseSerialization.m */,
+				B48F3A6C19ADC0880065FE76 /* AFURLSessionManager.h */,
+				B48F3A6D19ADC0880065FE76 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
 		B4BE78AC18EBF97A00C65666 = {
 			isa = PBXGroup;
 			children = (
@@ -614,6 +706,7 @@
 		B4BE78BE18EBF97A00C65666 /* iOSSamples */ = {
 			isa = PBXGroup;
 			children = (
+				B48F3A5919ADC07E0065FE76 /* Vendor */,
 				B4671F53190A575000DB412E /* Model */,
 				B4BE790718EC082800C65666 /* Images */,
 				B4BE78F218EC014700C65666 /* View */,
@@ -742,6 +835,12 @@
 				B465D28C199C934D00EC7CFF /* JYTTouchTestViewController.h */,
 				B465D28D199C934D00EC7CFF /* JYTTouchTestViewController.m */,
 				B465D28E199C934D00EC7CFF /* JYTTouchTestViewController.xib */,
+				B48F3A4319AD7CCC0065FE76 /* JYTOperationQueueTableViewController.h */,
+				B48F3A4419AD7CCC0065FE76 /* JYTOperationQueueTableViewController.m */,
+				B48F3A4519AD7CCC0065FE76 /* JYTOperationQueueTableViewController.xib */,
+				B48F3A5419ADBE7B0065FE76 /* JYTOperationQueue2TableViewController.h */,
+				B48F3A5519ADBE7B0065FE76 /* JYTOperationQueue2TableViewController.m */,
+				B48F3A5619ADBE7B0065FE76 /* JYTOperationQueue2TableViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1109,6 +1208,8 @@
 				B4BE79A118ED4D9C00C65666 /* rosetta_on.png in Resources */,
 				B45F3D3E199AF0D70058DD0A /* JYTBlockTestViewController.xib in Resources */,
 				B423BD4918F7954300FC7511 /* BucketBody@2x.png in Resources */,
+				B48F3A5819ADBE7B0065FE76 /* JYTOperationQueue2TableViewController.xib in Resources */,
+				B48F3A4719AD7CCC0065FE76 /* JYTOperationQueueTableViewController.xib in Resources */,
 				B4BE796818ECF05A00C65666 /* bt_12.png in Resources */,
 				B4BE78CB18EBF97A00C65666 /* Images.xcassets in Resources */,
 				B4BE794F18ECF05A00C65666 /* bg_point.png in Resources */,
@@ -1222,6 +1323,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B48F3A7619ADC0880065FE76 /* AFURLSessionManager.m in Sources */,
+				B48F3A7219ADC0880065FE76 /* AFSecurityPolicy.m in Sources */,
 				B465D28F199C934D00EC7CFF /* JYTTouchTestViewController.m in Sources */,
 				B4671F56190A576700DB412E /* JYTNewsData.m in Sources */,
 				B48FBED418F4E89F00BAF084 /* JYTCoinTransitionViewController.m in Sources */,
@@ -1231,26 +1334,39 @@
 				B4671F51190A472F00DB412E /* JYTNewsTableViewCell.m in Sources */,
 				B48FBED818F4E8D400BAF084 /* JYTCoinView.m in Sources */,
 				B4BE79AA18ED5D7600C65666 /* JYTCGContextRefCustomerView.m in Sources */,
+				B48F3A6E19ADC0880065FE76 /* AFHTTPRequestOperation.m in Sources */,
 				B4BE78F618EC05E900C65666 /* PulsingHaloLayer.m in Sources */,
 				B4BE799018ED4BB800C65666 /* JYTSectorViewController.m in Sources */,
+				B48F3A7019ADC0880065FE76 /* AFHTTPSessionManager.m in Sources */,
+				B48F3A5319ADBD880065FE76 /* JYTImageFiltration.m in Sources */,
+				B48F3A5719ADBE7B0065FE76 /* JYTOperationQueue2TableViewController.m in Sources */,
+				B48F3A4A19ADBB320065FE76 /* JYTPhotoRecord.m in Sources */,
 				B465D295199CAC2500EC7CFF /* JYTTouchButton.m in Sources */,
 				B4BE798A18ECF17E00C65666 /* HHTurntableView.m in Sources */,
 				B44FB6CA1963989200695EF6 /* JYTTabBarViewController.m in Sources */,
 				B4671F4C190A456F00DB412E /* JYTAutoFitLableTextSIzeViewController.m in Sources */,
 				B48FBEE018F6242200BAF084 /* JYTFrameTestViewController.m in Sources */,
 				B423BD3D18F794C300FC7511 /* JYTMoveToTrashViewController.m in Sources */,
+				B48F3A7119ADC0880065FE76 /* AFNetworkReachabilityManager.m in Sources */,
+				B48F3A7419ADC0880065FE76 /* AFURLRequestSerialization.m in Sources */,
 				B4BE78C918EBF97A00C65666 /* JYTAppDelegate.m in Sources */,
+				B48F3A7519ADC0880065FE76 /* AFURLResponseSerialization.m in Sources */,
 				B4BE790A18ECEFBA00C65666 /* JYTMasterTableViewController.m in Sources */,
 				B44FB75E1966894D00695EF6 /* JYTStrutsProblemViewController.m in Sources */,
+				B48F3A4619AD7CCC0065FE76 /* JYTOperationQueueTableViewController.m in Sources */,
+				B48F3A7319ADC0880065FE76 /* AFURLConnectionOperation.m in Sources */,
 				B4BE79AD18EE3BFE00C65666 /* JYTSectorView.m in Sources */,
 				B4BE799518ED4BD100C65666 /* AURosetteItem.m in Sources */,
+				B48F3A5019ADBC7C0065FE76 /* JYTImageDownloader.m in Sources */,
 				B45F3D3D199AF0D70058DD0A /* JYTBlockTestViewController.m in Sources */,
 				B4255E5D1935F9BC005E1473 /* JYTLoadingViewController.m in Sources */,
+				B48F3A4D19ADBB970065FE76 /* JYTPendingOperations.m in Sources */,
 				B4BE79A718ED5CC200C65666 /* JYTCGContextRefViewController.m in Sources */,
 				B4255E6819370B00005E1473 /* JYTLoadingView.m in Sources */,
 				B423BD4F18F7956300FC7511 /* GLBucket.m in Sources */,
 				B4BE78C518EBF97A00C65666 /* main.m in Sources */,
 				B4BE799618ED4BD100C65666 /* AURosetteView.m in Sources */,
+				B48F3A6F19ADC0880065FE76 /* AFHTTPRequestOperationManager.m in Sources */,
 				B4BE798618ECF13B00C65666 /* JYTShakeAwardTurnTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1669,6 +1785,7 @@
 				B48F3A1319AC308F0065FE76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B48F3A1419AC308F0065FE76 /* Build configuration list for PBXNativeTarget "TestPackage2Tests" */ = {
 			isa = XCConfigurationList;
@@ -1677,6 +1794,7 @@
 				B48F3A1619AC308F0065FE76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4BE78B018EBF97A00C65666 /* Build configuration list for PBXProject "iOSSamples" */ = {
 			isa = XCConfigurationList;
