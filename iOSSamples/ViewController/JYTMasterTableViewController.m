@@ -116,6 +116,10 @@
                    @{kItemKeyTitle: @"JYTOperationQueue2TableView",
                      kItemKeyDescription :@"NSOperationQueue2",
                      kItemKeyClassPrefix:@"JYTOperationQueue2Table",
+                     },
+                   @{kItemKeyTitle: @"JYTAutoLayoutView",
+                     kItemKeyDescription :@"Autolayout code",
+                     kItemKeyClassPrefix:@"JYTAutoLayout",
                      }
                    
                   ];

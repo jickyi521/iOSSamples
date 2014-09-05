@@ -22,7 +22,6 @@
 
 @implementation JYTTouchTestViewController
 
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];

@@ -441,22 +441,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "iOSSamples/ViewController/JYTStrutsProblemViewController.m"
-            timestampString = "426156587.809437"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "-viewDidLayoutSubviews"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "iOSSamples/ViewController/JYTMemoryManagerViewController.m"
             timestampString = "428920210.82044"
             startingColumnNumber = "9223372036854775807"
@@ -553,11 +537,11 @@
                   symbolName = "-[JYTOperationQueueTableViewController tableView:cellForRowAtIndexPath:]"
                   moduleName = "iOSSamples"
                   urlString = "file:///Users/easonqian/Desktop/Dev/iOSSamples/iOSSamples/ViewController/JYTOperationQueueTableViewController.m"
-                  timestampString = "430813756.21719"
+                  timestampString = "431490418.476829"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "99"
-                  endingLineNumber = "99"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
                   offsetFromSymbolStart = "150">
                </Location>
                <Location
@@ -567,11 +551,11 @@
                   symbolName = "__Block_byref_object_copy_"
                   moduleName = "iOSSamples"
                   urlString = "file:///Users/easonqian/Desktop/Dev/iOSSamples/iOSSamples/ViewController/JYTOperationQueueTableViewController.m"
-                  timestampString = "430813756.217474"
+                  timestampString = "431490418.477033"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "99"
-                  endingLineNumber = "99"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
                   offsetFromSymbolStart = "16">
                </Location>
                <Location
@@ -581,11 +565,11 @@
                   symbolName = "__Block_byref_object_dispose_"
                   moduleName = "iOSSamples"
                   urlString = "file:///Users/easonqian/Desktop/Dev/iOSSamples/iOSSamples/ViewController/JYTOperationQueueTableViewController.m"
-                  timestampString = "430813756.217683"
+                  timestampString = "431490418.477227"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "99"
-                  endingLineNumber = "99"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
                   offsetFromSymbolStart = "14">
                </Location>
             </Locations>

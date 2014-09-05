@@ -9,6 +9,20 @@
 #import "HHPlayAudio.h"
 
 @implementation HHPlayAudio
+
+
++ (id)getShareInstance
+{
+    static HHPlayAudio *instance;
+    static dispatch_once_t onceToken;
+    
+    dispatch_once(&onceToken, ^{
+        instance = [[HHPlayAudio alloc] init];
+    });
+    
+    return instance;
+}
+
 +(void)playSysAudio:(SystemSoundID)id
 {
     AudioServicesPlaySystemSound(id);
